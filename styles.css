@@ -228,17 +228,18 @@ HIGHLIGHTS
 
 /* 
 
-FEATURES 
+FEATURED
 
 */
 
-#features {
+#featured {
   padding-top: 8vw;
   background-color: rgba(115, 66, 214, 0.1);
 }
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
@@ -283,3 +284,10 @@ FEATURES
   padding-right: 6px;
   color: #bfbfbf;
 }
+
+/* 
+
+RECENTS 
+
+*/
+
